@@ -9,7 +9,7 @@ The main goals are:
 
 Hypothesis:
 
-  monthly_charges and tenure are the most determining factors of whether a customer will churn. 
+  monthly_charges and tenure are the most determining factors of whether a customer will churn.   
 
 ## Data Dictionary
 
