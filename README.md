@@ -3,9 +3,9 @@
 The aim of this project is to look at what drives customer churn for a fictional company, Telco.
 
 The main goals are:
-..* Determine at least two factors that contribute to customer churn.
-..* Predict with 80% accuracy whether a given customer will churn.
-..* Provide stakeholders with recommendations as to how to reduce customer churn.
+  * Determine at least two factors that contribute to customer churn.
+  * Predict with 80% accuracy whether a given customer will churn.
+  * Provide stakeholders with recommendations as to how to reduce customer churn.
 
 Hypothesis:
 > monthly_charges and tenure are the most determining factors of whether a customer will churn. 
