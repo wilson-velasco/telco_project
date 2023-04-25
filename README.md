@@ -8,6 +8,7 @@ The main goals are:
   * Provide stakeholders with recommendations as to how to reduce customer churn.
 
 Hypothesis:
+
   monthly_charges and tenure are the most determining factors of whether a customer will churn. 
 
 ## Data Dictionary
