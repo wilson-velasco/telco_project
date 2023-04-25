@@ -8,7 +8,7 @@ The main goals are:
   * Provide stakeholders with recommendations as to how to reduce customer churn.
 
 Hypothesis:
-> monthly_charges and tenure are the most determining factors of whether a customer will churn. 
+  monthly_charges and tenure are the most determining factors of whether a customer will churn. 
 
 ## Data Dictionary
 
@@ -38,14 +38,14 @@ payment_type | Type of payment method used (Electronic check, Mailed check, Bank
 
 # Project Planning
 
-..* Acquire all relevant data from telco_churn database.
-..* Prepare data for handling. Check/handle nulls if applicable.
-..* Isolate four variables that might affect customer churn. 
-..* Explore each variable for distribution, counts, ranges, etc. Run stats tests to determine dependence for each variable.
-..* Run through different classification models to determine best fit.
-..* Determine accuracy of best fit model and use said model to provide predictions on the test dataset.
-..* Provide stakeholders with recommendations on reducing churn.
+  * Acquire all relevant data from telco_churn database.
+  * Prepare data for handling. Check/handle nulls if applicable.
+  * Isolate four variables that might affect customer churn. 
+  * Explore each variable for distribution, counts, ranges, etc. Run stats tests to determine dependence for each variable.
+  * Run through different classification models to determine best fit.
+  * Determine accuracy of best fit model and use said model to provide predictions on the test dataset.
+  * Provide stakeholders with recommendations on reducing churn.
 
 # Key Findings, Takeaways, and Recommendations
 
-..* TBD
+  * TBD
