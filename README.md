@@ -47,6 +47,25 @@ payment_type | Type of payment method used (Electronic check, Mailed check, Bank
   * Determine accuracy of best fit model and use said model to provide predictions on the test dataset.
   * Provide stakeholders with recommendations on reducing churn.
 
-# Key Findings, Takeaways, and Recommendations
+# Key Findings
 
-  * TBD
+  * The variables had the following p-values, in descending order.
+     * tenure e-119
+     * contract type e-105
+     * online security e-66
+     * tech support e-52
+     * payment type e-47
+     * monthly charges .01
+  * On average, 50% of customers that will churn will churn by the 10-month mark.
+  * Fiber optic internet service has a much higher ratio of churn:no_churn than DSL.
+  * Month-to-month contract type is most susceptible to churn.
+  * 7.40% of customers with no internet will churn vs. 31.83% of customers with internet.
+  * Among those who have internet, customers who churn pay an average of $1.57 more than those who don't per month.
+  * 45.94% of customers that pay with electronic check have churned.
+
+# Recommendations
+
+  * Invest in R&D for their Fiber Optic service.
+  * Offer incentives to customers once they hit the 10-month mark.
+  * Look into possible issues with electronic check payments. Might be client-side, might be customer-side.
+  * Offer incentives for customers to switch to automatic method of payment.
