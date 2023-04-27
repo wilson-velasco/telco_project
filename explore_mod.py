@@ -51,7 +51,8 @@ def get_variable_viz(train_telco, column):
         print()
 
 def classification_models_performance(X_train, y_train, X_validate, y_validate):
-    
+    '''Takes split train/validate sets to produce performance of model across all four classification models.
+    '''
     # hyper_value has been hard coded because each model has already been run through a for-loop and hyper_value selected for best hyperparameter performance.
 
     scores = pd.DataFrame({}) # To add performance of each model to a DataFrame.
@@ -71,9 +72,9 @@ def classification_models_performance(X_train, y_train, X_validate, y_validate):
 
     # Random Forest
 
-    rfc = RandomForestClassifier(max_depth=6, min_samples_leaf=5)
+    rfc = RandomForestClassifier(max_depth=6, min_samples_leaf=5, random_state=123)
     rfc.fit(X_train, y_train)
-
+# find where to put random state
     score = pd.DataFrame({'model': ['Random Forest']
                         , 'train': [rfc.score(X_train, y_train)]
                         , 'validate': [rfc.score(X_validate, y_validate)]

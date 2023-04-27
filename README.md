@@ -63,6 +63,15 @@ payment_type | Type of payment method used | (Electronic check, Mailed check, Ba
   * Among those who have internet, customers who churn pay an average of $1.57 more than those who don't per month.
   * 45.94% of customers that pay with electronic check have churned.
 
+# Takeaways
+
+  * - We did not meet our goal of predicting churn with 80% accuracy, but we did beat the baseline of 68% with 75% accuracy on our model.
+
+# Next Steps
+
+  * We should look further into subset of Month-to-Month Fiber Optic customers to identify more drivers.
+  * Look at tenures across different subgroups for better targeting using incentives.
+
 # Recommendations
 
   * Invest in R&D for their Fiber Optic service.
